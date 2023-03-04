@@ -1,4 +1,5 @@
 
+
 public class Runner {
     /**
      * This challenge is about interacting with static variables.
@@ -17,11 +18,14 @@ public class Runner {
      * program.
      *
      * Using the static keyword is an intentional decision. If you are using the static keyword and don't know why,
-     * you are making a mistake. More on static here: https://www.baeldung.com/java-static
+     * you are mking a mistake. More on static here: https://www.baeldung.com/java-static
      *
      * @param in the String value you should change global_var to in.
+     * 
+     * 
      */
     public void changeClassVar(String in){
+            Class.global_var = in;
 
-    }
-}
+        
+    }}
